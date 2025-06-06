@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peplix Coin - Form Submitted</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        .message-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 120px); /* Adjust for header and footer */
+            text-align: center;
+            padding: 2rem;
+        }
+        .message-box {
+            background: white;
+            padding: 2rem 3rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        .message-box h1 {
+            color: #4CAF50;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .message-box p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        .message-box .back-btn, .message-box .pdf-link {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0.5rem;
+        }
+        .message-box .back-btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+        }
+        .message-box .back-btn:hover {
+            background: #45a049;
+        }
+        .message-box .pdf-link {
+            background: #007bff;
+            color: white;
+        }
+        .message-box .pdf-link:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Peplix Coin</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="index.html#documents">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="message-section section">
+        <div class="message-box">
+            <h1>🎉 Thank You!</h1>
+            <p>Your message has been successfully submitted. Our team will respond soon via your web3mail or email to discuss Peplix Coin’s AI-driven tools and community rewards.</p>
+            <p>
+                <a href="index.html" class="back-btn">Go Back Home</a>
+                <a href="assets/peplix-whitepaper.pdf" target="_blank" download class="pdf-link">Download Whitepaper</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Peplix Coin. All rights reserved. Think Global, Trade Smart.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
